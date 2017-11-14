@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="vendors/jquery-3.1.0.min.js"></script>
+    <script src="scripts/script.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Salary Calculator</title>
+</head>
+
+<body>
+    <img src="https://www.clockshark.com/Blog/wp-content/uploads/2016/11/happy-employees-payroll.png">
+    <H1>Guillermo's Amazing Company Cost Tracker</H1>
+    <div class="inputArea">
+        <H2>Please fill out all employee information before hitting submit.</H2>
+        <P>First Name: <input type="text" id="firstName" value=""></P>
+        <!-- Note from live solve: can use 'placeholder='first name' to put standard thing in box on load-->
+        <P>Last Name: <input type="text" id="lastName" value=""></P>
+        <P>ID Number: <input type="number" id="idNumber" value=""></P>
+        <P>Job Title: <input type="text" id="jobTitle" value=""></P>
+        <P>Annual Salary($): <input type="number" id="annualSalary" value=""></P>
+    </div>
+    <button id="submitButton">Add Employee</button>
+    <div id="monthlyCost">
+    </div>
+    <table id="salaryTable">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>ID Number</th>
+                <th>Job Title</th>
+                <th>Annual Salary</th>
+            </tr>
+        </thead>
+        <tbody id="salaryTBody">
+        </tbody>
+    </table>
+
+    <div>
+        <!-- Put total monthly costs calculation here -->
+        <H1></H1>
+    </div>
+</body>
+
+</html>
+
+<!-- Notes from Dev:
+
+after input div:
+<h3 id="totalSalaryOut">Total Salaries: $0.00</h3>
+<h4>Total Monthly Salary: $0.00</h4>
+<ul>
+    <li><strong>lastName, firstName</strong> idNumber, jobTitle, annualSalary</li>
+<!-- 
+    .ToFixed(2)will fix something to two decimal places
+</ul> -->
