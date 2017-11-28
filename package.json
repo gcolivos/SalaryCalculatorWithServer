@@ -11,16 +11,15 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/server.js"
   },
-},
-"repository": {
-  "type": "git",
-  "url": "git+https://github.com/gcolivos/SalaryCalculatorWithServer.git"
-},
-"keywords": [],
-"author": "",
-"license": "ISC",
-"bugs": {
-  "url": "https://github.com/gcolivos/SalaryCalculatorWithServer/issues"
-},
-"homepage": "https://github.com/gcolivos/SalaryCalculatorWithServer#readme"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcolivos/SalaryCalculatorWithServer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gcolivos/SalaryCalculatorWithServer/issues"
+  },
+  "homepage": "https://github.com/gcolivos/SalaryCalculatorWithServer#readme"
 }
